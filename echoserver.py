@@ -4,7 +4,7 @@ import requests
 
 app = Flask(__name__)
 
-PAT = 'EAACkdCdJ514BAJFlaXjpcq4kdKoGLE0ofxVLjtqDtEo9ZATX6Jrpoi9MCm7AVjB3WnED1nS3QrHBdkEhEq8EnD2h3Nu6dlyBKabrfHOeXy4WqyE8a0Gu6mhq3MzSIdh36j0ZBS2hruzcnMAVLZAipZBrZC0uhrxpIH5vRkZBbnWAZDZD'
+PAT = ''
 
 @app.route('/', methods=['GET'])
 def handle_verification():
